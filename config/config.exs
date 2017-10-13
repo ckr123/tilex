@@ -7,7 +7,8 @@ use Mix.Config
 
 # General application configuration
 config :tilex,
-  ecto_repos: [Tilex.Repo]
+  ecto_repos: [Tilex.Repo],
+  oauth_email_domain: "@uptime.dk"
 
 # Configures the endpoint
 config :tilex, TilexWeb.Endpoint,
